@@ -1,0 +1,77 @@
+*,
+*::after,
+*::backdrop {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #fceaff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 500px;
+  background: #fff0f6;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 0 5px 5px rgba(149, 131, 131, 0.663);
+  border: 0.5px solid #ff85c0;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  padding: 1rem;
+  color: #ff85c0;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.love-calculator {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: block;
+  margin: 10px 0;
+}
+
+.focus {
+  border: 2px solid green;
+  outline: 2px solid blue;
+}
+
+input[type='text'] {
+  width: 95%;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+}
+button {
+  border: 0;
+  background: #ff85c0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px 0;
+  cursor: pointer;
+}
+#result {
+  margin-top: 10px;
+  font-size: 2.2rem;
+  color: #ff85c0;
+}
+::placeholder {
+  text-transform: capitalize;
+}
