@@ -5,16 +5,18 @@ const inputForms = document.querySelectorAll('input[type="text"]');
 
 function calculate(e) {
   e.preventDefault();
+
   const firstName = document.getElementById('name1').value.trim();
   const secondName = document.getElementById('name2').value.trim();
 
   const lovePercentage = Math.floor(Math.random() * 101);
+  // result.innerHTML = '';
+  result.innerHTML = '';
 
   firstName !== '' || secondName !== ''
     ? (result.innerHTML = `&#10084;&#65039; ${firstName} and ${secondName} are %${lovePercentage} match! &#10084;&#65039; `)
     : alert('Enter both names');
   resetValues();
-
   lovePercentage < 40
     ? (result.innerHTML += `<br>not a great match! keep looking`)
     : 'Good! good and have sex LOL &#128516';

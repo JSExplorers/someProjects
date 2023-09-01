@@ -75,3 +75,10 @@ button {
 ::placeholder {
   text-transform: capitalize;
 }
+
+.result {
+  background: white;
+  width: 90%;
+  margin: 0 auto 10px;
+  border-radius: 10px;
+}
